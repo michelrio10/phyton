@@ -1,7 +1,8 @@
-#Acessando a posição da string
-print("Michel"[0])
-print("Michel"[1])
-print("Michel"[2])
-print("Michel"[3])
-print("Michel"[4])
-print("Michel"[5])
+#int
+valor = 1_000_000
+print ("Isto é int ",valor)
+print("\n")
+
+#float
+valor2 = 1_000.99
+print("Isto é um float ", valor2)
