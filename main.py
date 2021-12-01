@@ -1,8 +1,16 @@
-#int
-valor = 1_000_000
-print ("Isto é int ",valor)
-print("\n")
+#Função type para saber o tipo de uma variável
+varX = 1_000_000.00
+print(type(varX))
 
-#float
-valor2 = 1_000.99
-print("Isto é um float ", valor2)
+#Convertendo para string com str()
+varX = str(varX)
+print(type(varX))
+
+#Convertendo para float com float()
+varX = float(varX)
+print(type(varX))
+
+#Convertendo para inteiro com int()
+varX = int(varX)
+print(type(varX))
+
