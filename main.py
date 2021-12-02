@@ -1,16 +1,9 @@
-#Função type para saber o tipo de uma variável
-varX = 1_000_000.00
-print(type(varX))
+# 🚨 Don't change the code below 👇
+height = input("enter your height (altura ex 1.85) in m: ")
+weight = input("enter your weight (peso) in kg: ")
+# 🚨 Don't change the code above 👆
 
-#Convertendo para string com str()
-varX = str(varX)
-print(type(varX))
+#Write your code below this line 👇
 
-#Convertendo para float com float()
-varX = float(varX)
-print(type(varX))
-
-#Convertendo para inteiro com int()
-varX = int(varX)
-print(type(varX))
-
+bmi = ( (float(weight) / float(height) **2) )
+print("Seu BMI é ", int(bmi))
