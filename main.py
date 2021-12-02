@@ -3,5 +3,10 @@
 # import calculadora.py
 
 from calculadora import Calculadora
-c = Calculadora(1.85,85)
-print('Seu índice de massa corporal (IMC) é', c.bmi(), "kg/m2")
+c = Calculadora()
+resultado = c.imc()
+print(f'Seu índice de massa corporal (IMC) é {resultado} kg/m2')
+
+
+
+
