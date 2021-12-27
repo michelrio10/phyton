@@ -1,6 +1,5 @@
 
 # Calcularadora IMC
-# import calculadora.py
 
 from calculadora import Calculadora
 c = Calculadora()
