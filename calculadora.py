@@ -1,9 +1,7 @@
-
-
 class Calculadora:
   
   def __init__(self):
-        self.altura = input("enter your height (altura ex 1.85) in m: ")
+        self.altura = input("enter height (altura 1.85) in m: ")
         self.peso = input("enter your weight (peso) in kg: ")
 
 
